@@ -8,11 +8,12 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #111;
-            color: #fff;
+            background-color: blackcolor 
+    
+            color: red ;
         }
         header {
-            background-color: #ff4500;
+            background-color: red ;
             padding: 20px;
             text-align: center;
         }
@@ -23,12 +24,12 @@
         nav {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            background-color: #222;
+            gap: 30px;
+            background-color: black;
             padding: 10px 0;
         }
         nav a {
-            color: #fff;
+            color: red ;
             text-decoration: none;
             font-weight: bold;
         }
@@ -100,14 +101,14 @@
         <form>
             <input type="text" placeholder="Player Name" required>
             <input type="text" placeholder="Team Name (optional)">
-            <input type="text" placeholder="Free Fire UID" required>
-            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Free Fire UID" >
+            <input type="email" placeholder="Email Address" vijaygoid232@gmail.com>
             <button type="submit">Join Tournament</button>
         </form>
     </section>
 
     <footer id="contact">
-        <p>Contact us: freefiretourney@email.com | WhatsApp: +91 90000 00000</p>
+        <p>Contact us: freefiretourney@email.com | WhatsApp: +91 6281940795</p>
         <p>&copy; 2025 Free Fire Tournament. All Rights Reserved.</p>
     </footer>
 
